@@ -1,0 +1,11 @@
+name = "dcbot"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Discord Interactions
+# Du musst diese URL im Discord Developer Portal unter "Interactions Endpoint URL" eintragen
+# Format: https://<dein-bot-name>.<dein-username>.workers.dev
+[vars]
+DISCORD_PUBLIC_KEY = "@discord_public_key"
+DISCORD_APPLICATION_ID = "@discord_application_id"
+DISCORD_BOT_TOKEN = "@discord_bot_token"
